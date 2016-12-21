@@ -149,8 +149,6 @@ subApps:
                   class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
                 contentPreviewDefinition:
                   contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
-              - name: description
-                class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
       nodeType:
         icon: icon-items
         name: mgnl:galleryelement
