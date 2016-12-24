@@ -61,6 +61,12 @@ subApps:
       deleteFolder:
         icon: icon-delete
         class: info.magnolia.ui.framework.action.DeleteItemActionDefinition
+      publishGalleryElement:
+        icon: icon-publish
+        class: info.magnolia.ui.contentapp.detail.action.ActivationActionDefinition
+      unpublishGalleryElement:
+        icon: icon-unpublish
+        class: info.magnolia.ui.contentapp.detail.action.DeactivationActionDefinition
       editgalleryelement:
         subAppId: detail
         icon: icon-edit
